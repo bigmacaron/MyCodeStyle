@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="typo_text">폰트</string>
+    <string name="nav_home">홈</string>
+    <string name="nav_text">텍스트</string>
+
+    <string name="description_check">체크 박스 아이콘</string>
+    <string name="description_home">홈 아이콘</string>
+    <string name="description_text">텍스트 아이콘</string>
+</resources>
+
+
+
+
+
