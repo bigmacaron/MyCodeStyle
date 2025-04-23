@@ -8,6 +8,8 @@ object AppColor {
     val Black = Color(0xFF000000)
     val White = Color(0xFFFFFFFF)
     val Gray = Color(0xFF888888)
+    val Yellow = Color(0xFFFFC107)
+    val Primary = Color(0xFF0A6060)
     @Immutable
     object Undefined {
         val Etc = Color(0xFF187A10)

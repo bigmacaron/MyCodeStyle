@@ -22,8 +22,8 @@ sealed class Screen(
         route = "Home",
         title = "홈"
     )
-    data object Text : Screen(
-        route = "Text",
-        title = "텍스트"
+    data object Favorite : Screen(
+        route = "Favorite",
+        title = "즐겨찾기"
     )
 }

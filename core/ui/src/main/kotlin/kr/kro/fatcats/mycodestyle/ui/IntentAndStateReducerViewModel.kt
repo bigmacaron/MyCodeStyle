@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
-import kr.kro.fatcats.mycodestyle.model.LoadingState
+import kr.kro.fatcats.mycodestyle.model.state.LoadingState
 
 abstract class IntentAndStateReducerViewModel<State, Intent, SideEffect>(
     initialState: State

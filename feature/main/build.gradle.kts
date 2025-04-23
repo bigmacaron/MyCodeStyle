@@ -11,6 +11,8 @@ android {
 dependencies {
     implementation(project(":core:design-system"))
     implementation(project(":core:model"))
+    implementation(project(":core:ui"))
+    implementation(project(":core:domain"))
     implementation(project(":feature:home"))
-    implementation(project(":feature:text"))
+    implementation(project(":feature:favorite"))
 }

@@ -40,6 +40,7 @@ dependencies {
 
 
     implementation(project(":feature:main"))
+    implementation(project(":core:room"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

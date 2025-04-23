@@ -17,11 +17,18 @@ hiltVersion = "1.2.0"
 hiltAndroidVersion = "2.56.1"
 appcompatVersion = "1.7.0"
 material = "1.12.0"
+roomVersion = "2.7.0"
+gsonVersion = "2.10.1"
 
 [libraries]
 android-tools-build-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+room-runtime = {group="androidx.room", name = "room-runtime" , version.ref = "roomVersion"}
+room-compiler = {group="androidx.room", name = "room-compiler" , version.ref = "roomVersion"}
+room-ktx = {group="androidx.room", name = "room-ktx" , version.ref = "roomVersion"}
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersion" }
+
 
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

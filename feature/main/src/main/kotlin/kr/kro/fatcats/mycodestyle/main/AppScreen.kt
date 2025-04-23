@@ -8,7 +8,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ColorFilter
-import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -20,12 +19,10 @@ import kr.kro.fatcats.mycodestyle.design_system.component.base.BaseText
 import kr.kro.fatcats.mycodestyle.design_system.theme.AppColor
 import kr.kro.fatcats.mycodestyle.design_system.theme.AppTypography
 import kr.kro.fatcats.mycodestyle.design_system.theme.MainTheme
-import kr.kro.fatcats.mycodestyle.home.HomeViewModel
+import kr.kro.fatcats.mycodestyle.favorite.ui.FavoriteScreen
 import kr.kro.fatcats.mycodestyle.home.ui.HomeScreen
 import kr.kro.fatcats.mycodestyle.model.ImageOptions
 import kr.kro.fatcats.mycodestyle.model.Screen
-import kr.kro.fatcats.mycodestyle.text.TextViewModel
-import kr.kro.fatcats.mycodestyle.text.ui.TextScreen
 
 @Composable
 fun App(mainViewModel : MainViewModel) {
@@ -41,7 +38,7 @@ fun AppScreen(mainViewModel: MainViewModel) {
             bottomBar = {
                 val currentRoute = navController.currentBackStackEntryAsState().value?.destination?.route
                 NavigationBar {
-                    listOf(Screen.Home, Screen.Text).forEach { screen ->
+                    listOf(Screen.Home, Screen.Favorite).forEach { screen ->
                         NavigationBarItem(
                             icon = {
                                 BaseImage(
@@ -80,8 +77,6 @@ fun AppScreen(mainViewModel: MainViewModel) {
 
 @Composable
 fun MainNavGraph(navController : NavHostController) {
-    val homeViewModel : HomeViewModel = hiltViewModel()
-    val textViewModel : TextViewModel = hiltViewModel()
 
     val defaultRoute = "Home"
     NavHost(
@@ -89,10 +84,10 @@ fun MainNavGraph(navController : NavHostController) {
         startDestination = defaultRoute,
     ){
         composable(Screen.Home.route){
-            HomeScreen(homeViewModel)
+            HomeScreen()
         }
-        composable(Screen.Text.route){
-            TextScreen(textViewModel)
+        composable(Screen.Favorite.route){
+            FavoriteScreen()
         }
     }
 }
@@ -101,6 +96,6 @@ fun MainNavGraph(navController : NavHostController) {
 fun getNavIcon(screen: Screen) : AppIcon.DrawableWithText {
     return when(screen){
         Screen.Home -> AppIcon.Nav.NavHome24
-        Screen.Text -> AppIcon.Nav.NavTextFields24
+        Screen.Favorite -> AppIcon.Nav.NavStar24
     }
 }

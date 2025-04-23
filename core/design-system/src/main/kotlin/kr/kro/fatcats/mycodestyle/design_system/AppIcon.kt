@@ -25,11 +25,12 @@ object AppIcon {
 
     object Common {
         val check = DrawableWithText(R.drawable.ic_check_24 , AppString.Description.Check)
+        val favorite = DrawableWithText(R.drawable.nav_star_24 , AppString.Description.Favorite)
     }
 
     object Nav {
         val NavHome24 = DrawableWithText(R.drawable.nav_home_24, AppString.Description.Home)
-        val NavTextFields24 = DrawableWithText(R.drawable.nav_text_fields_24, AppString.Description.Text)
+        val NavStar24 = DrawableWithText(R.drawable.nav_star_24, AppString.Description.Favorite)
     }
 
 }

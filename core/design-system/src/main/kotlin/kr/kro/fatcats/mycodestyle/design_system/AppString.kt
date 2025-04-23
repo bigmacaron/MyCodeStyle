@@ -13,18 +13,19 @@ object AppString{
 
     object Common {
         val TypoText get() = TextWithResId(R.string.typo_text)
+        val SelectedDescription get() = TextWithResId(R.string.selected_description)
     }
 
     object Nav{
-        val Home get() = TextWithResId(R.string.nav_home)
-        val Text get() = TextWithResId(R.string.nav_text)
+        val Home get() = kr.kro.fatcats.mycodestyle.model.Screen.Home.title
+        val Favorite get() = kr.kro.fatcats.mycodestyle.model.Screen.Favorite.title
     }
-
 
     object Description{
         val Check get() = TextWithResId(R.string.description_check)
         val Home get() = TextWithResId(R.string.description_home)
-        val Text get() = TextWithResId(R.string.description_text)
+        val Favorite get() = TextWithResId(R.string.description_favorite)
+
     }
 
 }
