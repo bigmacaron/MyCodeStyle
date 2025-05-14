@@ -19,8 +19,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-//        adManager = AdManager(this)
-//        adManager.startObserve(lifecycle)
+        adManager = AdManager(this)
+        adManager.startObserve(lifecycle)
         setContent {
             App(viewModel)
         }
