@@ -1,5 +1,6 @@
 package kr.kro.fatcats.mycodestyle.data.room
 
+import android.util.Log
 import android.util.Log.e
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOf
@@ -35,6 +36,7 @@ class ExcuseRepository @Inject constructor(
     }.getOrElse { e-> e(TAG, "getByCategory: failure $e" ) ;  flowOf(emptyList()) }
 
     suspend fun getByCategory(category: ExcuseCategory) = runCatching {
+        Log.d(TAG, "getByCategory:$category ")
         withContext(Dispatchers.IO) {
             if (category == ExcuseCategory.ALL) {
                 getAllExcuseData()

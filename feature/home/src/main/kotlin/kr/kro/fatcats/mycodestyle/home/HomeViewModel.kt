@@ -1,5 +1,6 @@
 package kr.kro.fatcats.mycodestyle.home
 
+import android.R.attr.category
 import android.util.Log
 import androidx.compose.runtime.snapshotFlow
 import androidx.lifecycle.viewModelScope
@@ -12,6 +13,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kr.kro.fatcats.mycodestyle.domain.model.ExcuseUseCases
@@ -20,7 +22,6 @@ import kr.kro.fatcats.mycodestyle.home.state.HomeIntent
 import kr.kro.fatcats.mycodestyle.home.state.HomeSideEffect
 import kr.kro.fatcats.mycodestyle.home.state.HomeUiState
 import kr.kro.fatcats.mycodestyle.model.ExcuseItems
-import kr.kro.fatcats.mycodestyle.model.enums.ExcuseCategory
 import kr.kro.fatcats.mycodestyle.ui.IntentAndStateReducerViewModel
 import javax.inject.Inject
 
@@ -33,9 +34,13 @@ class HomeViewModel @Inject constructor(
     private var spinJob: Job? = null
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    private val selectListFlow = snapshotFlow { state.value.selectedCategory }
+    val selectListFlow = state
+        .map { it.selectedCategory }
         .distinctUntilChanged()
-        .flatMapLatest { excuseUseCases.getByCategory(it) ?: flowOf(emptyList()) }
+        .flatMapLatest {
+            Log.e(TAG, "getByCategory:$it ")
+            excuseUseCases.getByCategory(it) ?: flowOf(emptyList())
+        }
         .stateIn(viewModelScope, SharingStarted.Eagerly, emptyList())
 
     init {
