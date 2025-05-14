@@ -1,5 +1,6 @@
 package kr.kro.fatcats.mycodestyle.home.unit
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -19,6 +20,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import kr.kro.fatcats.mycodestyle.design_system.component.base.BaseText
 import kr.kro.fatcats.mycodestyle.design_system.component.unit.DropDownSet
+import kr.kro.fatcats.mycodestyle.design_system.theme.AppColor
 import kr.kro.fatcats.mycodestyle.design_system.theme.AppTypography
 import kr.kro.fatcats.mycodestyle.model.enums.ExcuseCategory
 
@@ -40,6 +42,7 @@ fun CategoryDropdown(
         ) { expanded = true }
         CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
             DropdownMenu(
+                modifier = Modifier.background(AppColor.Primary),
                 expanded = expanded,
                 onDismissRequest = { expanded = false }
             ) {

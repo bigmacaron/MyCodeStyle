@@ -12,8 +12,17 @@ object AppColor {
     val LightGray = Color(0xFF9D9D9D)
     val BackGroundLight = Color(0x24000000)
     val Yellow = Color(0xFFFFC107)
-    val Primary = Color(0xFF0A6060)
+    val Primary = Color(0xFFFFE478)
+    val SoftYellow = Color(0xFFFFF4C2)
+    val WarmSandBeige= Color(0xFFF1D6A6)
     val Red = Color(0xFFFF0000)
+
+    object Brush {
+        val BackGround = androidx.compose.ui.graphics.Brush.verticalGradient(
+            colors = listOf(SoftYellow, WarmSandBeige )
+        )
+    }
+
     @Immutable
     object Undefined {
         val Etc = Color(0xFF187A10)

@@ -5,7 +5,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="광고 로드 중 입니다."
+        android:text="광고를 불러오고 있습니다."
+        android:background="#FFE478"
         android:gravity="center"
         />
 

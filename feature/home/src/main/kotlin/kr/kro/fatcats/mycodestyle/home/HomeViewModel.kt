@@ -19,6 +19,8 @@ import kr.kro.fatcats.mycodestyle.home.state.DisplayItem
 import kr.kro.fatcats.mycodestyle.home.state.HomeIntent
 import kr.kro.fatcats.mycodestyle.home.state.HomeSideEffect
 import kr.kro.fatcats.mycodestyle.home.state.HomeUiState
+import kr.kro.fatcats.mycodestyle.model.ExcuseItems
+import kr.kro.fatcats.mycodestyle.model.enums.ExcuseCategory
 import kr.kro.fatcats.mycodestyle.ui.IntentAndStateReducerViewModel
 import javax.inject.Inject
 
@@ -87,11 +89,14 @@ class HomeViewModel @Inject constructor(
         spinCancel()
         spinJob = viewModelScope.launch {
             var delayTime = 50L
+            val items = mutableListOf<ExcuseItems>()
+            items.addAll(selectListFlow.first())
             while (state.value.displayItem.isSpin) {
-                val item = selectListFlow.first().randomOrNull().also { Log.d(TAG, "spinPlay: item $it") }
+                val item = items.randomOrNull().also { Log.d(TAG, "spinPlay: item $it") }
                 reduceState {
                     copy(displayItem = displayItem.copy(isSpin = true, setItems = item))
                 }
+                items.removeIf { it == item }
                 delay(delayTime)
                 delayTime += if (delayTime < 200L) 5L else 50L
                 if (delayTime > 500L) {

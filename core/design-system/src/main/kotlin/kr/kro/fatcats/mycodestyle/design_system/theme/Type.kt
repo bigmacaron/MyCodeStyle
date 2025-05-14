@@ -38,88 +38,88 @@ object AppTypography {
         fontFamily = PretendardMediumFontFamily,
         fontSize = 16.sp,
         lineHeight = 1.5.em,
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Default_Bold = AppTextStyle(
         fontFamily = PretendardSemiBoldFontFamily,
         fontSize = TextUnit.Unspecified,
         lineHeight =TextUnit.Unspecified,
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Heading_1B = AppTextStyle(
         fontFamily = PretendardBoldFontFamily,
         fontSize = 36.sp,
         lineHeight = 1.2.em
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
 
     val Heading_1Sb = AppTextStyle(
         fontFamily = PretendardSemiBoldFontFamily,
         fontSize = 36.sp,
         lineHeight = 43.2.sp
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Heading_2B = AppTextStyle(
         fontFamily = PretendardBoldFontFamily,
         fontSize = 32.sp,
         lineHeight = 1.2.em
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Heading_3B = AppTextStyle(
         fontFamily = PretendardSemiBoldFontFamily,
         fontSize = 28.sp,
         lineHeight = 1.2.em
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Heading_3Sb = AppTextStyle(
         fontFamily = PretendardBoldFontFamily,
         fontSize = 28.sp,
         lineHeight = 1.2.em
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Body_1B = AppTextStyle(
         fontFamily = PretendardBoldFontFamily,
         fontSize = 16.sp,
         lineHeight = 24.sp
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
 
     val Body_1M = AppTextStyle(
         fontFamily = PretendardMediumFontFamily,
         fontSize = 16.sp,
         lineHeight = 24.sp
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Body_2B = AppTextStyle(
         fontFamily = PretendardBoldFontFamily,
         fontSize = 14.sp,
         lineHeight = 21.sp
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
 
     val Body_2M = AppTextStyle(
         fontFamily = PretendardMediumFontFamily,
         fontSize = 14.sp,
         lineHeight = 21.sp
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Label_1M = AppTextStyle(
         fontFamily = PretendardMediumFontFamily,
         fontSize = 16.sp,
         lineHeight = TextUnit.Unspecified
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Label_2Sb = AppTextStyle(
         fontFamily = PretendardSemiBoldFontFamily,
         fontSize = 14.sp,
         lineHeight = TextUnit.Unspecified
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
     val Label_2M = AppTextStyle(
         fontFamily = PretendardMediumFontFamily,
         fontSize = 14.sp,
         lineHeight = TextUnit.Unspecified
-    ).style
+    ).style.copy(color = FontColor.Primary)
 
 }
 

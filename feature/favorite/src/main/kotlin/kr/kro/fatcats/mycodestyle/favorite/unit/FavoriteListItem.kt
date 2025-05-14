@@ -61,14 +61,12 @@ fun FavoriteListItem(
         },
         content = {
             FavoriteListContent(
-                modifier = modifier.background(AppColor.White),
+                modifier = modifier,
                 excuseItem = excuseItems,
                 event = { id -> handleIntent(FavoriteIntent.ChangeFavorite(id)) }
             )
         }
     )
-
-
 }
 
 @Composable
@@ -84,7 +82,8 @@ fun FavoriteListContent(
                 width = 1.dp,
                 color = AppColor.Gray,
                 shape = RoundedCornerShape(12.dp)
-            )
+            ).clip(RoundedCornerShape(12.dp))
+            .background(AppColor.Primary)
             .padding(vertical = 20.dp),
         contentAlignment = Alignment.Center
     ) {
