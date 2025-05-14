@@ -26,6 +26,9 @@ object AppIcon {
     object Common {
         val check = DrawableWithText(R.drawable.ic_check_24 , AppString.Description.Check)
         val favorite = DrawableWithText(R.drawable.nav_star_24 , AppString.Description.Favorite)
+        val ArrowDropDown = DrawableWithText(R.drawable.arrow_drop_down_24 , AppString.Description.Favorite)
+        val TouchApp = DrawableWithText(R.drawable.touch_app_24 , AppString.Description.Favorite)
+        val ContentCopy = DrawableWithText(R.drawable.content_copy_24 , AppString.Description.Favorite)
     }
 
     object Nav {

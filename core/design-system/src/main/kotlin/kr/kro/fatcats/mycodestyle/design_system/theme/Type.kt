@@ -65,6 +65,18 @@ object AppTypography {
         lineHeight = 1.2.em
     ).style
 
+    val Heading_3B = AppTextStyle(
+        fontFamily = PretendardSemiBoldFontFamily,
+        fontSize = 28.sp,
+        lineHeight = 1.2.em
+    ).style
+
+    val Heading_3Sb = AppTextStyle(
+        fontFamily = PretendardBoldFontFamily,
+        fontSize = 28.sp,
+        lineHeight = 1.2.em
+    ).style
+
     val Body_1B = AppTextStyle(
         fontFamily = PretendardBoldFontFamily,
         fontSize = 16.sp,

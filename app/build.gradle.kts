@@ -41,6 +41,7 @@ dependencies {
 
     implementation(project(":feature:main"))
     implementation(project(":core:room"))
+    implementation(project(":adhelper"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

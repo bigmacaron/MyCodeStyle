@@ -1,6 +1,5 @@
 package kr.kro.fatcats.mycodestyle.data.room
 
-import android.util.Log
 import android.util.Log.e
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOf
@@ -21,8 +20,8 @@ class ExcuseRepository @Inject constructor(
 
     suspend fun getAllExcuseData() = withContext(Dispatchers.IO) {
         runCatching {
-            excuseDao.getAll().map { list -> list.toExcuseItems() }
-        }.getOrElse { e-> e(TAG, "getAllExcuseData: failure $e " ) ; null }
+            excuseDao.getAll().map { it.map { it.toExcuseItems() } }.flowOn(Dispatchers.IO)
+        }.getOrElse { e-> e(TAG, "getAllExcuseData: failure $e " ) ; flowOf(emptyList()) }
     }
 
     suspend fun getById(id :Int) = withContext(Dispatchers.IO) {
@@ -32,8 +31,7 @@ class ExcuseRepository @Inject constructor(
     }
 
     fun getFavorites() = runCatching { excuseDao.getFavorites().map {
-        list -> list.map { it.toExcuseItems() }
-        }.flowOn(Dispatchers.IO)
+        list -> list.map { it.toExcuseItems() } }.flowOn(Dispatchers.IO)
     }.getOrElse { e-> e(TAG, "getByCategory: failure $e" ) ;  flowOf(emptyList()) }
 
     suspend fun getByCategory(category: ExcuseCategory) = runCatching {
@@ -41,10 +39,10 @@ class ExcuseRepository @Inject constructor(
             if (category == ExcuseCategory.ALL) {
                 getAllExcuseData()
             } else {
-                excuseDao.getByCategory(category).map { it.toExcuseItems() }
+                excuseDao.getByCategory(category).map { it.map { it.toExcuseItems() } }.flowOn(Dispatchers.IO)
             }
         }
-    }.getOrElse { e-> e(TAG, "getByCategory: failure $e" ) ; null}
+    }.getOrElse { e-> e(TAG, "getByCategory: failure $e" ) ;  flowOf(emptyList()) }
 
     suspend fun setFavorite(id : Int, isFavorite : Boolean) : Boolean = withContext(Dispatchers.IO) {
         runCatching { excuseDao.setFavorite(id, isFavorite) }.onFailure{ e-> e(TAG, "setFavorite: failure $e" ) }.isSuccess

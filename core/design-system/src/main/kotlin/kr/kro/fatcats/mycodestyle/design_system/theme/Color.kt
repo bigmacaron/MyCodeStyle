@@ -7,9 +7,13 @@ import androidx.compose.ui.graphics.Color
 object AppColor {
     val Black = Color(0xFF000000)
     val White = Color(0xFFFFFFFF)
+    val Transparent = Color(0x00000000)
     val Gray = Color(0xFF888888)
+    val LightGray = Color(0xFF9D9D9D)
+    val BackGroundLight = Color(0x24000000)
     val Yellow = Color(0xFFFFC107)
     val Primary = Color(0xFF0A6060)
+    val Red = Color(0xFFFF0000)
     @Immutable
     object Undefined {
         val Etc = Color(0xFF187A10)

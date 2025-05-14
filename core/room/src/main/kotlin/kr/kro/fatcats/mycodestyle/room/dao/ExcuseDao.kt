@@ -13,7 +13,7 @@ import kr.kro.fatcats.mycodestyle.room.entitys.ExcuseEntity
 interface ExcuseDao {
 
     @Query("SELECT * FROM excuse")
-    suspend fun getAll(): List<ExcuseEntity>
+    fun getAll(): Flow<List<ExcuseEntity>>
 
 //    @Query("SELECT * FROM excuse WHERE is_favorite = 1")
 //    suspend fun getFavorites(): List<ExcuseEntity>
@@ -28,7 +28,7 @@ interface ExcuseDao {
     suspend fun setFavorite(id: Int, isFavorite: Boolean)
 
     @Query("SELECT * FROM excuse WHERE category = :category")
-    fun getByCategory(category: ExcuseCategory): List<ExcuseEntity>
+    fun getByCategory(category: ExcuseCategory): Flow<List<ExcuseEntity>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(excuses: List<ExcuseEntity>)

@@ -19,6 +19,7 @@ appcompatVersion = "1.7.0"
 material = "1.12.0"
 roomVersion = "2.7.0"
 gsonVersion = "2.10.1"
+playServicesAds = "23.6.0"
 
 [libraries]
 android-tools-build-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
@@ -28,7 +29,7 @@ room-runtime = {group="androidx.room", name = "room-runtime" , version.ref = "ro
 room-compiler = {group="androidx.room", name = "room-compiler" , version.ref = "roomVersion"}
 room-ktx = {group="androidx.room", name = "room-ktx" , version.ref = "roomVersion"}
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersion" }
-
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
 
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

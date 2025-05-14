@@ -2,151 +2,151 @@
   {
     "id": 1,
     "category": "MISSED_APPOINTMENT",
-    "message": "몸 상태가 너무 안 좋아서 일어나질 못했어… 진짜 미안",
+    "message": "몸 상태가 안 좋아서",
     "is_favorite": false
   },
   {
     "id": 2,
     "category": "MISSED_APPOINTMENT",
-    "message": "갑작스럽게 가족 일이 생겨서 도저히 나갈 수가 없었어",
+    "message": "갑작스럽게 가족 일이 생겨서",
     "is_favorite": false
   },
   {
     "id": 3,
     "category": "MISSED_APPOINTMENT",
-    "message": "정신없이 일하다 보니 약속 시간이 훌쩍 지나버렸어",
+    "message": "회사 일이 너무 바빠서",
     "is_favorite": false
   },
   {
     "id": 4,
     "category": "MISSED_APPOINTMENT",
-    "message": "약속을 완전히 착각하고 하루를 잘못 알고 있었어",
+    "message": "차 시동이 걸리지 않아 정비소 가야해서",
     "is_favorite": false
   },
   {
     "id": 5,
     "category": "MISSED_APPOINTMENT",
-    "message": "회사에 급한 일이 생겨서 못 나가게 됐어… 이해해줘",
+    "message": "회사에 급한 일이 생겨서",
     "is_favorite": false
   },
   {
     "id": 6,
     "category": "MISSED_APPOINTMENT",
-    "message": "눈을 떴는데 이미 약속 시간이 훌쩍 지나 있었어",
+    "message": "집안 수도관이 터져서",
     "is_favorite": false
   },
   {
     "id": 7,
     "category": "MISSED_APPOINTMENT",
-    "message": "오전에 병원 다녀오다가 너무 피곤해서 잠들어버렸어",
+    "message": "집에 전기가 나가서",
     "is_favorite": false
   },
   {
     "id": 8,
     "category": "MISSED_APPOINTMENT",
-    "message": "부모님이 갑자기 찾아오셔서 움직일 수가 없었어",
+    "message": "부모님이 갑자기 찾아오셔서",
     "is_favorite": false
   },
   {
     "id": 9,
     "category": "MISSED_APPOINTMENT",
-    "message": "너무 감기 기운이 심해서 오늘은 정말 무리였어",
+    "message": "감기 기운이 너무 심해서",
     "is_favorite": false
   },
   {
     "id": 10,
     "category": "MISSED_APPOINTMENT",
-    "message": "집안에 급한 일이 생겨서 바로 나갈 수가 없었어",
+    "message": "집안에 급한 일이 생겨서",
     "is_favorite": false
   },
   {
     "id": 11,
     "category": "MISSED_APPOINTMENT",
-    "message": "택배가 파손돼서 바로 처리하느라 나갈 수 없었어",
+    "message": "체기가 있어서",
     "is_favorite": false
   },
   {
     "id": 12,
     "category": "MISSED_APPOINTMENT",
-    "message": "차 키를 분실해서 이동이 불가능했어",
+    "message": "오늘 컨디션이 너무 안좋아 피곤해서",
     "is_favorite": false
   },
   {
     "id": 13,
     "category": "MISSED_APPOINTMENT",
-    "message": "갑자기 장염 증상이 와서 침대에서 못 일어났어",
+    "message": "장염 증상이 있어서",
     "is_favorite": false
   },
   {
     "id": 14,
     "category": "MISSED_APPOINTMENT",
-    "message": "엘리베이터가 고장 나서 고층에서 못 내려왔어",
+    "message": "지갑을 잃어 버리고 찾았지만, 받으러 가야해서",
     "is_favorite": false
   },
   {
     "id": 15,
     "category": "MISSED_APPOINTMENT",
-    "message": "동생이 다쳐서 응급실 다녀오느라 못 갔어",
+    "message": "가방을 지하철에서 잃어 버려 찾으러 가야해서",
     "is_favorite": false
   },
   {
     "id": 16,
     "category": "MISSED_APPOINTMENT",
-    "message": "강아지가 아파서 병원 다녀오느라 시간이 훌쩍 갔어",
+    "message": "고양이가 아파 병원 가야해서",
     "is_favorite": false
   },
   {
     "id": 17,
     "category": "MISSED_APPOINTMENT",
-    "message": "갑자기 몸에 열이 나서 코로나 의심돼 자가 격리 중이야",
+    "message": "몸에 열이 나 코로나 의심 되어서",
     "is_favorite": false
   },
   {
     "id": 18,
     "category": "MISSED_APPOINTMENT",
-    "message": "이사 문제로 부동산과 얘기하다가 시간이 다 갔어",
+    "message": "도어락이 고장나 사람을 불러서",
     "is_favorite": false
   },
   {
     "id": 19,
     "category": "MISSED_APPOINTMENT",
-    "message": "어제 밤새 일하고 방전돼서 눈을 못 떴어",
+    "message": "어제 늦게 까지 야근을 해서",
     "is_favorite": false
   },
   {
     "id": 20,
     "category": "MISSED_APPOINTMENT",
-    "message": "약속 장소를 헷갈려서 엉뚱한 데 가 있었어",
+    "message": "회사에서 급한 회의가 잡혀서",
     "is_favorite": false
   },
   {
     "id": 21,
     "category": "MISSED_APPOINTMENT",
-    "message": "차가 도중에 퍼져서 견인차 기다리느라 못 갔어",
+    "message": "어제 밤새도록 토해서",
     "is_favorite": false
   },
   {
     "id": 22,
     "category": "MISSED_APPOINTMENT",
-    "message": "교통사고를 목격해서 경찰 조사 때문에 발이 묶였어",
+    "message": "단수가 되어 씻지 못해서",
     "is_favorite": false
   },
   {
     "id": 23,
     "category": "MISSED_APPOINTMENT",
-    "message": "기상청 믿고 우산 안 들고 나갔다가 빗속에서 돌아왔어",
+    "message": "보일러가 고장나 기사님 기다려야 해서",
     "is_favorite": false
   },
   {
     "id": 24,
     "category": "MISSED_APPOINTMENT",
-    "message": "핸드폰이 고장 나서 알람도 못 듣고 일정도 몰랐어",
+    "message": "세탁기가 고장나 코인 세탁방에서 세탁 해야해서",
     "is_favorite": false
   },
   {
     "id": 25,
     "category": "MISSED_APPOINTMENT",
-    "message": "집안에 수도관이 터져서 긴급 수리 중이었어",
+    "message": "선약이 있어서",
     "is_favorite": false
   },
   {
@@ -164,7 +164,7 @@
   {
     "id": 28,
     "category": "LATE_APPOINTMENT",
-    "message": "출발하려는데 갑자기 비가 쏟아져서 우산 사느라 늦었어",
+    "message": "출발 하려는데 갑자기 비가 쏟아져서 우산 사느라 늦었어",
     "is_favorite": false
   },
   {
@@ -176,49 +176,49 @@
   {
     "id": 30,
     "category": "LATE_APPOINTMENT",
-    "message": "강아지가 나가는 걸 막아서 설득하다 늦었어",
+    "message": "교통카드 충전하느라 늦게 출발했어",
     "is_favorite": false
   },
   {
     "id": 31,
     "category": "LATE_APPOINTMENT",
-    "message": "출근길 교통사고 때문에 차가 거의 안 움직였어",
+    "message": "교통사고 때문에 차가 막혀서",
     "is_favorite": false
   },
   {
     "id": 32,
     "category": "LATE_APPOINTMENT",
-    "message": "옷이 다 젖어서 갈아입느라 늦어졌어",
+    "message": "등기우편이 온다고 연락받아 잠시 머물렀어",
     "is_favorite": false
   },
   {
     "id": 33,
     "category": "LATE_APPOINTMENT",
-    "message": "편의점 들렀다가 줄이 너무 길었어",
+    "message": "주차 한곳 까먹고 차 찾느라 늦었어",
     "is_favorite": false
   },
   {
     "id": 34,
     "category": "LATE_APPOINTMENT",
-    "message": "화장실 갔다가 너무 오래 걸렸어… 급했어 진짜",
+    "message": "회의가 길어져서 출발이 늦어졌어",
     "is_favorite": false
   },
   {
     "id": 35,
     "category": "LATE_APPOINTMENT",
-    "message": "계단에서 발을 삐끗해서 천천히 걷고 있어",
+    "message": "주유소에 들르느라 늦어졌어",
     "is_favorite": false
   },
   {
     "id": 36,
     "category": "LATE_APPOINTMENT",
-    "message": "전화 받다가 출발이 늦어졌어… 곧 도착!",
+    "message": "택시가 오래 잡히지 않아 늦어졌어",
     "is_favorite": false
   },
   {
     "id": 37,
     "category": "LATE_APPOINTMENT",
-    "message": "모자 찾다가 10분 날아갔어… 바로 출발함",
+    "message": "이어폰 잃어버려서 찾느라 늦었어",
     "is_favorite": false
   },
   {
@@ -248,7 +248,7 @@
   {
     "id": 42,
     "category": "LATE_APPOINTMENT",
-    "message": "건물 앞에 공사 중이라 우회하느라 늦었어",
+    "message": "갑자기 단수가 되어서 늦었어",
     "is_favorite": false
   },
   {
@@ -260,13 +260,13 @@
   {
     "id": 44,
     "category": "LATE_APPOINTMENT",
-    "message": "엘리베이터 고장나서 15층 계단으로 내려오는 중",
+    "message": "엘리베이터 고장나서 계단으로 내려와서",
     "is_favorite": false
   },
   {
     "id": 45,
     "category": "LATE_APPOINTMENT",
-    "message": "주유소 들렀다가 줄이 너무 길었어",
+    "message": "당근하러 갔는데 상대방이 잠수타서 기다리다가",
     "is_favorite": false
   },
   {
@@ -278,19 +278,19 @@
   {
     "id": 47,
     "category": "LATE_APPOINTMENT",
-    "message": "가족이 갑자기 심부름 시켜서 늦어졌어",
+    "message": "씻다가 넘어져서 한동안 멍하게 있었어",
     "is_favorite": false
   },
   {
     "id": 48,
     "category": "LATE_APPOINTMENT",
-    "message": "지하철 환승 잘못해서 반대방향 타고 있었어",
+    "message": "지하철 잘못해서 반대방향 타고 있었어",
     "is_favorite": false
   },
   {
     "id": 49,
     "category": "LATE_APPOINTMENT",
-    "message": "열쇠가 안 보여서 출발이 늦었어",
+    "message": "도어락이 말을 안들어서 늦게 출발 했어",
     "is_favorite": false
   },
   {
@@ -302,7 +302,7 @@
   {
     "id": 51,
     "category": "NO_RESPONSE",
-    "message": "폰 배터리가 나간 줄 모르고 있었어… 지금 켜보니 알림이 한가득이야",
+    "message": "폰 배터리가 나간 줄 모르고 있었어",
     "is_favorite": false
   },
   {
@@ -320,13 +320,13 @@
   {
     "id": 54,
     "category": "NO_RESPONSE",
-    "message": "운전 중이라 못 보고 있었어… 지금 확인했어",
+    "message": "운전 중이라 못 보고 있었어 지금 확인했어",
     "is_favorite": false
   },
   {
     "id": 55,
     "category": "NO_RESPONSE",
-    "message": "앱 알림이 꺼져 있어서 전혀 몰랐어",
+    "message": "전송 실패가 왜 떠있지",
     "is_favorite": false
   },
   {
@@ -338,19 +338,19 @@
   {
     "id": 57,
     "category": "NO_RESPONSE",
-    "message": "진동이라 놓친 줄도 몰랐어… 미안해",
+    "message": "진동이라 연락 온줄 몰랐어",
     "is_favorite": false
   },
   {
     "id": 58,
     "category": "NO_RESPONSE",
-    "message": "알림창 닫고 답장하려다 잊어버렸어",
+    "message": "통화 중에 알림 온거 보고 답장 하려다가 까먹었어",
     "is_favorite": false
   },
   {
     "id": 59,
     "category": "NO_RESPONSE",
-    "message": "와이파이 끊겨서 톡이 늦게 도착했어",
+    "message": "차가 고장나서 하루종일 정신이 없었어",
     "is_favorite": false
   },
   {
@@ -368,7 +368,7 @@
   {
     "id": 62,
     "category": "NO_RESPONSE",
-    "message": "이어폰 연결돼 있어서 알림 소리도 안 들림",
+    "message": "답장을 했다고 착각했었어",
     "is_favorite": false
   },
   {
@@ -380,37 +380,37 @@
   {
     "id": 64,
     "category": "NO_RESPONSE",
-    "message": "통화 중에 알림 와서 놓쳤어",
+    "message": "폰 시스템 업데이트 한다고 답장이 늦었어",
     "is_favorite": false
   },
   {
     "id": 65,
     "category": "NO_RESPONSE",
-    "message": "문자 온 줄 알았는데 알고 보니 안 와 있었어",
+    "message": "수업중이라 연락을 못했어",
     "is_favorite": false
   },
   {
     "id": 66,
     "category": "NO_RESPONSE",
-    "message": "알림 설정이 초기화돼 있었어",
+    "message": "부모님이랑 오래 통화 하느라",
     "is_favorite": false
   },
   {
     "id": 67,
     "category": "NO_RESPONSE",
-    "message": "앱이 자동 로그아웃돼서 알림이 안 왔어",
+    "message": "간만에 연락온 친구랑 오래 통화 하느라",
     "is_favorite": false
   },
   {
     "id": 68,
     "category": "NO_RESPONSE",
-    "message": "폰이 재부팅되면서 알림이 날아갔어",
+    "message": "쇼파에 잠깐 앉았다가 잠들었었어",
     "is_favorite": false
   },
   {
     "id": 69,
     "category": "NO_RESPONSE",
-    "message": "톡 온 줄 알고 눌렀더니 딴 사람이었어",
+    "message": "건물 지하에서 수신이 안 돼서 못 봤어",
     "is_favorite": false
   },
   {
@@ -422,7 +422,7 @@
   {
     "id": 71,
     "category": "NO_RESPONSE",
-    "message": "폰 화면이 깨져서 터치가 안 됐어",
+    "message": "화장실 청소 하느라 알림을 늦게 봤어",
     "is_favorite": false
   },
   {
@@ -434,67 +434,67 @@
   {
     "id": 73,
     "category": "NO_RESPONSE",
-    "message": "진짜 답하려 했는데 정신 팔려서 지금 함",
+    "message": "소파 쿠션 사이에 폰이 끼어 못 찾았어",
     "is_favorite": false
   },
   {
     "id": 74,
     "category": "NO_RESPONSE",
-    "message": "잠깐 잤다가 알림 폭탄 맞고 놀랐어",
+    "message": "핸드폰 분실 했다가 찾느라 정신이 없었어",
     "is_favorite": false
   },
   {
     "id": 75,
     "category": "NO_RESPONSE",
-    "message": "헷갈려서 다른 사람한테 답장했어… 지금 봤다",
+    "message": "지하철에 가방을 놓고와 찾느라 정신이 없었어",
     "is_favorite": false
   },
   {
     "id": 76,
     "category": "FUNNY",
-    "message": "외계인한테 납치됐다가 방금 돌아왔어… 나 믿어줘",
+    "message": "외계인한테 납치됐다가 방금 돌아와서",
     "is_favorite": false
   },
   {
     "id": 77,
     "category": "FUNNY",
-    "message": "시간여행 중이었는데 돌아오는 날을 착각했어",
+    "message": "시간여행 중이었는데 돌아오는 날을 착각해서",
     "is_favorite": false
   },
   {
     "id": 78,
     "category": "FUNNY",
-    "message": "고양이가 핸드폰 숨겨놔서 답장을 못 했어",
+    "message": "고양이가 핸드폰 숨겨놔서 ",
     "is_favorite": false
   },
   {
     "id": 79,
     "category": "FUNNY",
-    "message": "AI가 나 대신 대답한 줄 알았어… 미안ㅋㅋ",
+    "message": "AI 에게 뇌를 지배 당해서",
     "is_favorite": false
   },
   {
     "id": 80,
     "category": "FUNNY",
-    "message": "꿈속에서 약속을 지켰다고 착각했어",
+    "message": "타임머신 고장으로 지금 도착했어",
     "is_favorite": false
   },
   {
     "id": 81,
     "category": "FUNNY",
-    "message": "갑자기 다른 차원으로 소환돼 있었어",
+    "message": "이세계에서 세상을 구하느라",
     "is_favorite": false
   },
   {
     "id": 82,
     "category": "FUNNY",
-    "message": "집 문이 말을 안 들어서 못 나갔어",
+    "message": "강아지에게 새우꺾기 당해서",
     "is_favorite": false
   },
   {
     "id": 83,
     "category": "FUNNY",
-    "message": "몸이 투명해져서 아무도 날 못 봤어",
+    "message": "로봇 청소기가 내 핸드폰 삼켰어",
     "is_favorite": false
   },
   {
@@ -506,13 +506,13 @@
   {
     "id": 85,
     "category": "FUNNY",
-    "message": "현관문이 나를 거부해서 못 나갔어",
+    "message": "마법 주문 연습하다 마비돼 있었어",
     "is_favorite": false
   },
   {
     "id": 86,
     "category": "FUNNY",
-    "message": "오늘이 무슨 요일인지 몰랐어… 외계 달력 쓰는 중",
+    "message": "태풍이 몰고 온 외계 문어가 내 폰을 숨겼어",
     "is_favorite": false
   },
   {
@@ -524,19 +524,19 @@
   {
     "id": 88,
     "category": "FUNNY",
-    "message": "하늘에서 갑자기 가방이 떨어져서 기절했어",
+    "message": "내일 종말이 올줄 알고 가족과 있었어",
     "is_favorite": false
   },
   {
     "id": 89,
     "category": "FUNNY",
-    "message": "택시가 말 타고 와서 시간 오래 걸렸어",
+    "message": "신내림을 받아서 힘든 날이었어",
     "is_favorite": false
   },
   {
     "id": 90,
     "category": "FUNNY",
-    "message": "핸드폰이랑 싸우다가 졌어… 그래서 못 썼어",
+    "message": "외계침공이 예정되어 있어서",
     "is_favorite": false
   },
   {
@@ -548,49 +548,49 @@
   {
     "id": 92,
     "category": "FUNNY",
-    "message": "친구가 로봇이었단 걸 깨닫고 멘붕 와서 못 나갔어",
+    "message": "제우스 만나고 오느라",
     "is_favorite": false
   },
   {
     "id": 93,
     "category": "FUNNY",
-    "message": "잠깐 투명 인간이었어… 톡 못 봤지",
+    "message": "토르 망치가 문을 막아서",
     "is_favorite": false
   },
   {
     "id": 94,
     "category": "FUNNY",
-    "message": "갑자기 사라졌다 돌아오는 마법 써봤어",
+    "message": "9와 4분의 3 승강장에서 헤메다가",
     "is_favorite": false
   },
   {
     "id": 95,
     "category": "FUNNY",
-    "message": "알람이 저세상에 울려서 못 들었어",
+    "message": "화산 회귀 하고 와서",
     "is_favorite": false
   },
   {
     "id": 96,
     "category": "FUNNY",
-    "message": "AI랑 다퉜는데 나 대신 약속을 취소했더라",
+    "message": "이세계 탱커에게 힐주다가",
     "is_favorite": false
   },
   {
     "id": 97,
     "category": "FUNNY",
-    "message": "해킹당해서 톡이 다 삭제됐어",
+    "message": "일론 머스크랑 저녁 약속이 있어서",
     "is_favorite": false
   },
   {
     "id": 98,
     "category": "FUNNY",
-    "message": "기억상실 걸려서 지금 처음 보는 날 같아",
+    "message": "기억상실 걸렸다가 기억을 방금 되찾았어",
     "is_favorite": false
   },
   {
     "id": 99,
     "category": "FUNNY",
-    "message": "텔레파시로 답장했는데 못 받았나 봐",
+    "message": "워렌버핏에게 상담해주느라",
     "is_favorite": false
   },
   {
